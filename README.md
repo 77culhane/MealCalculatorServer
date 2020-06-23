@@ -1,2 +1,1 @@
-# MealCalculatorServer
-Meal Calculator Server
+# repo for upload to Heroku
