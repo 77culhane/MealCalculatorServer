@@ -115,12 +115,12 @@ def tester():
             #increase the counter
             counter = counter - 1
         results = f"""
-        meatweight: {round(((meatprotein-nonmeatprotein)/meatservprotein) * meatservweight, 2)} oz/grams------
-        nonmeatweight: {round((nonmeatprotein/nonmeatservprotein) * nonmeatservweight, 2)} oz/grams-------
-        meatprotein: {round(meatprotein-nonmeatprotein, 2)} grams protein-------
-        nonmeatprotein: {round(nonmeatprotein, 2)} grams protein---------
-        meatcals: {round(((meatprotein-nonmeatprotein)/meatservprotein) * meatservcals, 2)} cals-------
-        nonmeatcals: {round((nonmeatprotein/nonmeatservprotein) * nonmeatservcals, 2)} cals--------
+        meatweight: {round(((meatprotein-nonmeatprotein)/meatservprotein) * meatservweight, 2)} oz/grams------\n
+        nonmeatweight: {round((nonmeatprotein/nonmeatservprotein) * nonmeatservweight, 2)} oz/grams-------\n
+        meatprotein: {round(meatprotein-nonmeatprotein, 2)} grams protein-------\n
+        nonmeatprotein: {round(nonmeatprotein, 2)} grams protein---------\n
+        meatcals: {round(((meatprotein-nonmeatprotein)/meatservprotein) * meatservcals, 2)} cals-------\n
+        nonmeatcals: {round((nonmeatprotein/nonmeatservprotein) * nonmeatservcals, 2)} cals--------\n
         """
         return results
 
