@@ -94,10 +94,12 @@ def tester():
         else:
             extracals = extracals
 
+        basecals = 366
+        baseprotein = 29
         #create a variable for the amount of calories you want in your meal
-        totalcals = 315 - extracals
+        totalcals = basecals - extracals
         #create a variable for the amount of protein you want in your meal 
-        meatprotein = 30 - extraprotein
+        meatprotein = baseprotein - extraprotein
         #create a variable for foods with no protein (salad dressing, condiments, candy, etc.)
         empty_cals = 8
         #make a counter; this will allow your code to acheive the best balance possible between your foods
