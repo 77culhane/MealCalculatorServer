@@ -1,6 +1,5 @@
 appnope==0.1.0
 click==6.7
-Cython==0.29.12
 decorator==4.4.0
 Flask==1.1.1
 Flask-SQLAlchemy==2.4.1
