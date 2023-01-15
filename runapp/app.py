@@ -94,7 +94,7 @@ def tester():
         else:
             extracals = extracals
 
-        basecals = 400
+        basecals = 300
         baseprotein = 30
         #create a variable for the amount of calories you want in your meal
         totalcals = basecals - extracals
